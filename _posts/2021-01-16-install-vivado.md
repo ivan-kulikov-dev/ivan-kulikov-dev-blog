@@ -22,8 +22,10 @@ sudo apt-get install libtinfo5 libncurses5 python3-pip ncurses5-compat-libs
 sudo dpkg --add-architecture i386
 sudo apt-get install dpkg-dev:i386 libgtk2.0-0:i386 libstdc++6:i386
 ```
-Если этого не сделать, то у конце установки будет зависание установщика vivado на этапе 'Generating installed device list'
+Если этого не сделать, то у конце установки будет зависание установщика vivado на этапе 'Generating installed device list'.
+
 Данная проблема на vivado 2019.1, 2019.2, 2021.2
-(Зависание описано в посте https://stackoverflow.com/questions/70767297/installing-vivado-ml-2021-2-in-centos-but-process-is-hang-in-generating-install/70780748)
+(Зависание описано в посте 
+https://stackoverflow.com/questions/70767297/installing-vivado-ml-2021-2-in-centos-but-process-is-hang-in-generating-install/70780748)
 
 5) Запустите Xilinx_Vivado_SDK_Web_2019.1_0524_1430_Lin64.bin и установите его. (Как подробно это делать статья на habr - https://habr.com/ru/post/559946/)

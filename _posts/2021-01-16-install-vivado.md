@@ -5,7 +5,7 @@ subtitle: Each post also has a subtitle
 gh-repo: /ivan-kulikov-dev/ivan-kulikov-dev-blog
 gh-badge: [star, fork, follow]
 tags: [vivado]
-comments: false
+comments: true
 ---
 
 Как установить vivado 2019 + Ubuntu 20.04.3 LTS

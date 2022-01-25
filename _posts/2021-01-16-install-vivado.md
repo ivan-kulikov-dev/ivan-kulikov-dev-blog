@@ -11,9 +11,12 @@ comments: false
 Как установить vivado 2019 + Ubuntu 20.04.3 LTS
 
 1) Установите ubundu Ubuntu 20.04.3 LTS и обновите
-2) Зарегистрируйтесь на сайте https://www.xilinx.com/support/download.html
-3) Откройте  https://www.xilinx.com/member/forms/download/xef-vivado.html?filename=Xilinx_Vivado_SDK_Web_2019.1_0524_1430_Lin64.bin по аккаунтом и скачайте
-4) Установите следующие пакеты:
+
+3) Зарегистрируйтесь на сайте https://www.xilinx.com/support/download.html
+
+4) Откройте  https://www.xilinx.com/member/forms/download/xef-vivado.html?filename=Xilinx_Vivado_SDK_Web_2019.1_0524_1430_Lin64.bin по аккаунтом и скачайте
+
+5) Установите следующие пакеты:
 ```
 sudo add-apt-repository universe
 sudo apt-get install libtinfo5 libncurses5 python3-pip ncurses5-compat-libs
@@ -24,6 +27,4 @@ sudo apt-get install dpkg-dev:i386 libgtk2.0-0:i386 libstdc++6:i386
 Данная проблема на vivado 2019.1, 2019.2, 2021.2
 (Зависание описано в посте https://stackoverflow.com/questions/70767297/installing-vivado-ml-2021-2-in-centos-but-process-is-hang-in-generating-install/70780748)
 
-5) Запустите Xilinx_Vivado_SDK_Web_2019.1_0524_1430_Lin64.bin и установите
-
-
+5) Запустите Xilinx_Vivado_SDK_Web_2019.1_0524_1430_Lin64.bin и установите его. (Как подробно это делать статья на habr - https://habr.com/ru/post/559946/)

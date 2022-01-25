@@ -2,8 +2,7 @@
 layout: post
 title: Установка vivado 2019 + Ubuntu 20.04.3 LTS (Решение проблемы 'Generating installed device list')
 gh-repo: /ivan-kulikov-dev/ivan-kulikov-dev-blog
-gh-badge: [star, fork, follow]
-tags: [vivado]
+tags: [vivado, fpga]
 comments: true
 ---
 
